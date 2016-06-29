@@ -1,0 +1,24 @@
+{
+  "name": "web-starter-kit",
+  "version": "1.0.0",
+  "description": "Webapp Starter Kit",
+  "scripts": {
+    "test": "echo 'test'",
+    "prod": "gulp --production",
+    "watch": "gulp watch"
+  },
+  "license": "MIT",
+  "author": "Guntur Excel - @ghun_tur",
+  "dependencies": {
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "jstransformer-verbatim": "^1.0.0",
+    "laravel-elixir": "^5.0.0"
+  },
+  "devDependencies": {
+    "gulp-clean": "^0.3.2",
+    "gulp-csslint": "^0.3.1",
+    "gulp-htmlhint": "^0.3.1"
+  }
+}

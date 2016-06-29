@@ -1,0 +1,31 @@
+doctype html
+html
+    head
+        // [meta] 
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(http-equiv="x-ua-compatible" content="ie=edge")
+
+        // [title] 
+        block meta
+            title Home | #{title}
+
+        // [favicon] 
+
+
+        // [stylesheet] 
+        link(rel="stylesheet" type="text/css" href="#{base_url}/assets/css/#{filename}.css" charset="utf-8")
+
+    body
+        include nav/_main-nav
+        
+        block content
+
+        block footer
+
+        // [Vendor Script] 
+        script(type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js")
+        script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js")
+            
+        // [App Script] 
+        script(type="text/javascript" src="#{base_url}/assets/js/#{filename}.js")
