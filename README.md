@@ -1,6 +1,5 @@
-# Web Dev StarterKit
+# Create template
 
-Create html template
+Create template using jade
 
-# License
-- MIT License
+[Jade Language](http://jade-lang.com)
